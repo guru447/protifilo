@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio data</title>
+</head>
+<body>
+    
+    <style>
+body{
+    font-family: Arial, sans-serif;
+    background:palevioletred;
+}
+
+.container{
+    width:600px;
+    margin:40px auto;
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+    color:#762e7d;
+}
+
+label{
+    font-weight:bold;
+    display:block;
+    margin-top:12px;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+    background:#2e7d32;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1b5e20;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Blockchain Agriculture Project Bio Data</h2>
+
+<form>
+
+<label>Farmer Name</label>
+<input type="text" placeholder="Enter your name">
+
+<label>State</label>
+<select>
+    <option>AndhraaPradesh</option>
+    <option>Assam</option>
+    <option>Telangana</option>
+    <option>Karnataka</option>
+</select>
+
+<label>Email</label>
+<input type="email" placeholder="Enter email">
+
+<label>Phone</label>
+<input type="tel" placeholder="Enter phone">
+
+<label>Crop data</label>
+<select>
+<option>RAGII</option>
+<option>RICE</option>
+<option>MAIZE</option>
+<option>JOVA</option>
+</select>
+
+<label>Technologies Used</label>
+<input type="text" placeholder="Ethereum, Java, Node.js">
+
+<label>Project Description</label>
+<textarea rows="4" placeholder="Write about project"></textarea>
+
+<label>Objectives</label>
+<textarea rows="3" placeholder="Project objectives"></textarea>
+
+<p id="demo">JavaScript can change HTML content.</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Thank you"'>Click Me!</button>
+
+<button type="submit">Submit</button>
+
+</form>
+</div>
+</body>
+</html>
